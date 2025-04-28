@@ -1,6 +1,6 @@
-//import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {HashRouter, Routes, Route} from "react-router-dom";
-import Home from "./components/home";
+//import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
+import Home from "./components/Home";
 import Login from "./components/ Login";
 import Register from "./components/ Register";
 import Dashboard from "./components/ Dashboard";
@@ -13,8 +13,8 @@ function App() {
         <Routes>      
            <Route path="/" element={<Home/>}/>
            <Route path="/Login" element={<Login/>}/>
-           <Route path="/register" element={<Register/>}/>
-           <Route path="/dashboard" element={<Dashboard/>}/>
+           <Route path="/Register" element={<Register/>}/>
+           <Route path="/Dashboard" element={<Dashboard/>}/>
         </Routes>
       </HashRouter>    
     </>

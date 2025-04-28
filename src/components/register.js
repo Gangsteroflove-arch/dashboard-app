@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 
-function register()
+function Register()
 {
     return (
         <>
@@ -23,4 +23,4 @@ function register()
     )
 }
 
-export default register;
+export default Register;
