@@ -16,8 +16,9 @@ function Register()
                 <button>Submit</button>
             </form>
             <p></p>
-            
-            <p>login </p>
+            <link to="/login">Login</link>
+            <p></p>
+            <Link to="/">Home</Link>
             
         </>
     )
