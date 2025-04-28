@@ -1,9 +1,10 @@
+import home from './components/home';
 import './App.css';
 
 function App() {
   return (
    <>
-   <p>react dashboard demo</p></>
+   <p>home</p></>
   );
 }
 
