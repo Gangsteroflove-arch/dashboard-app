@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Gangsteroflove-arch/dashboard-app.git/static/css/main.f855e6bc.css",
-    "main.js": "/Gangsteroflove-arch/dashboard-app.git/static/js/main.6b34f2a8.js",
+    "main.js": "/Gangsteroflove-arch/dashboard-app.git/static/js/main.6e6e13a7.js",
     "static/js/453.d67644d7.chunk.js": "/Gangsteroflove-arch/dashboard-app.git/static/js/453.d67644d7.chunk.js",
     "index.html": "/Gangsteroflove-arch/dashboard-app.git/index.html",
     "main.f855e6bc.css.map": "/Gangsteroflove-arch/dashboard-app.git/static/css/main.f855e6bc.css.map",
-    "main.6b34f2a8.js.map": "/Gangsteroflove-arch/dashboard-app.git/static/js/main.6b34f2a8.js.map",
+    "main.6e6e13a7.js.map": "/Gangsteroflove-arch/dashboard-app.git/static/js/main.6e6e13a7.js.map",
     "453.d67644d7.chunk.js.map": "/Gangsteroflove-arch/dashboard-app.git/static/js/453.d67644d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.6b34f2a8.js"
+    "static/js/main.6e6e13a7.js"
   ]
 }
