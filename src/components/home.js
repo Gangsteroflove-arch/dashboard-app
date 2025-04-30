@@ -1,22 +1,22 @@
 import {Link} from "react-router-dom"
 
-function home()
+function Home()
 {
     return (
         <>
             <p>React Dashboard App v1.3</p>
             <p></p>
             <p>
-                <Link to="/login">Login</Link>
+                <Link to="/Login">Login</Link>
             </p>
             <p>
-                <Link to="/register">Register</Link>
+                <Link to="/Register">Register</Link>
             </p>
             <p>
-                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/Dashboard">Dashboard</Link>
             </p>
         </>
     )
 }
 
-export default home;
+export default Home;
