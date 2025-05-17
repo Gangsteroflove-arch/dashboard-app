@@ -1,6 +1,6 @@
 import {Link, useNavigate} from "react-router-dom"
 import { useState, useRef, useEffect } from "react";
-import { FaUser } from "react-icons/fa";
+import { FaUser,FaLock } from "react-icons/fa";
 
 function Login()
 {
@@ -67,9 +67,10 @@ function Login()
         <>
             <h1>login</h1>
             <p></p>
-            <form>
+            <form action="">
+                <FaUser className='icon'/>
                 <label>UserName: </label><input ref={txtusername} type="text" placeholder="* username" maxLength={25}></input><br/>
-                <FaUser />
+                <FaLock className='icon'/>
                 <label>Password: </label><input ref={txtpassword} type="password" placeholder="* password" maxLength={25}></input>
                 <p></p>
                 <p>{msgText}</p>
@@ -88,7 +89,7 @@ function Login()
             <p></p>
             
             <p className="register-link">
-        Don't have an account? <a href="#">Register</a>
+            Don't have an account? <a href="#">Register</a>
       </p>
             <Link to="/">Home</Link>
         </>
