@@ -7,6 +7,7 @@ function Register()
 
     const txtusername = useRef("")
     const txtpassword = useRef("")
+    const txtemail = useRef("")
    
     return (
         <>
@@ -14,6 +15,7 @@ function Register()
             <p></p>
             <form>
                 <label>UserName: </label><input ref={txtusername} type="text" placeholder="* username" maxLength={25}></input><br/>
+                <label>Email: </label><input ref={txtemail} type="text" placeholder="*email" maxLength={25}></input><br/>
                 <label>Password: </label><input ref={txtpassword} type="password" placeholder="* password" maxLength={25}></input><br/>
                 <label>* Confirm Password: </label><input type="password" placeholder="* Confirm password" maxLength={25}></input>
                 <p></p>

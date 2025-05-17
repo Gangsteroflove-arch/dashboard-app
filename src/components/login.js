@@ -72,7 +72,7 @@ function Login()
                 <p></p>
                 <p>{msgText}</p>
                 <p></p>
-                <button onClick={(e)=>handleLogin(e)}>Submit</button>
+                <button onClick={(e)=>handleLogin(e)}>Login</button>
             </form>
             <p></p>
             <Link to="/register">Register</Link>
