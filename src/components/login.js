@@ -73,10 +73,21 @@ function Login()
                 <p>{msgText}</p>
                 <p></p>
                 <button onClick={(e)=>handleLogin(e)}>Login</button>
+                <div>
+                     <div>
+                        <label>
+                            <input type="checkbox" /> Remember me
+                         </label>
+                             <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                
             </form>
             <p></p>
             <Link to="/register">Register</Link>
-            <p></p>
+            <p className="register-link">
+        Don't have an account? <a href="#">Register</a>
+      </p>
             <Link to="/">Home</Link>
         </>
     )

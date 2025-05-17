@@ -22,7 +22,7 @@ function Register()
                 <input type="checkbox"/>I agree to the terms and conditions
                 <p></p>
                 <p></p>
-                <button>Submit</button>
+                <button>Register</button>
             </form>
             <p></p>
             <Link to="/login">Login</Link>
