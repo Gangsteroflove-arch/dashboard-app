@@ -1,5 +1,6 @@
 import {Link, useNavigate} from "react-router-dom"
 import { useState, useRef, useEffect } from "react";
+import { FaUser } from "react-icons/fa";
 
 function Login()
 {
@@ -68,6 +69,7 @@ function Login()
             <p></p>
             <form>
                 <label>UserName: </label><input ref={txtusername} type="text" placeholder="* username" maxLength={25}></input><br/>
+                <FaUser />
                 <label>Password: </label><input ref={txtpassword} type="password" placeholder="* password" maxLength={25}></input>
                 <p></p>
                 <p>{msgText}</p>
@@ -84,7 +86,7 @@ function Login()
                 
             </form>
             <p></p>
-            <Link to="/register">Register</Link>
+            
             <p className="register-link">
         Don't have an account? <a href="#">Register</a>
       </p>
