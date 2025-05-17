@@ -64,7 +64,7 @@ function Login()
 
     return (
         <>
-            <p>login</p>
+            <h1>login</h1>
             <p></p>
             <form>
                 <label>UserName: </label><input ref={txtusername} type="text" placeholder="* username" maxLength={25}></input><br/>
